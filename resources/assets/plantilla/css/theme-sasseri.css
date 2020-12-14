@@ -1,0 +1,166 @@
+::-webkit-scrollbar {
+    width:5px;
+    height: 5px ;
+    background-color: #F5F5F5; 
+}
+::-webkit-scrollbar-track{
+    background-color: #cacbc7;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #97c4f7; 
+}
+*{
+    outline: none;
+    /* font-size: 14px; */
+}
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.625;
+    color: #666;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+a{
+    color: #333;
+}
+.fa{
+    font-family: FontAwesome;
+}
+.fa-chevron-left::before{
+    font-family: FontAwesome;
+}
+.btn{
+    border-radius: 0;
+    font-size: 14px;
+}
+.btn-primary{
+    background-color: #08537c;
+}
+.btn-primary:hover{
+    background-color: #003b5a;
+}
+label{
+    margin-bottom: .2rem;
+}
+.topbar{
+    background-color: #cacbc7;
+    height: 2.5rem;
+}
+#alertsDropdown i{
+    color: #08537c;
+}
+#accordionSidebar{
+    border-right: 2px solid #93bf1f;
+
+}
+.sidebar .sidebar-brand{
+    padding: 0 1rem;
+}
+#userDropdown span{
+    color: #08537c;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.sidebar .nav-item .nav-link[data-toggle="collapse"]::after {
+
+    width: 1rem;
+    text-align: center;
+    float: right;
+    vertical-align: 0;
+    border: 0;
+    font-weight: 900;
+    content: "\f107";
+    font-family: FontAwesome;
+  
+}
+
+.sidebar .nav-item .collapse, .sidebar .nav-item .collapsing{
+    padding-left: 0;
+}
+.sidebar .nav-item .collapse .collapse-inner, 
+.sidebar .nav-item .collapsing .collapse-inner{
+    width: min-content;
+    background: #fff;
+}
+.page-item.active .page-link{
+    z-index: 0;
+}
+
+.sidebar #sidebarToggle::after{
+    font-family: FontAwesome;
+}
+.sidebar.toggled #sidebarToggle::after{
+    font-family: FontAwesome;
+}
+.bg-blue{
+    background-color: #003b5a;
+    color: #fff;
+}
+.bg-dark{
+    color: #fff;
+}
+@media (max-width:767.98px){
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+table.table-earning thead th{
+    background-color: #08537c;
+    color: #fff;
+    padding: .5rem;
+}
+table .table-earning tbody td{
+    color: #333;
+    padding: .5rem;
+}
+.sidebar.toggled .nav-item .collapse, .sidebar.toggled .nav-item .collapsing {
+	margin: 0;
+	z-index: 10;
+}
+.sidebar.toggled .nav-item .collapse .collapse-inner {
+	box-shadow: 0 .15rem 5px 0 rgb(58, 59, 69);
+	border-radius:0;
+	background: #fff;
+	z-index: 20;
+	position: relative;
+}
+.sidebar.toggled .nav-item .collapse {
+	left: calc(4rem + 1.5rem / 2);	
+}
+.form-control{
+    border-radius: 0;
+    font-size: 14px;
+}
+
+.modal-content{
+    margin-top: 2rem;
+    position: fixed !important;
+}
+select {
+    color: #a7a7a7;
+}
+select option:first-child {
+    color: #a7a7a7;
+}
+select option {
+    color: #333;
+}
+.mostrar{
+    /* overflow: auto; */
+}
+.table td.td-estado a > i{
+    font-size: 1.5rem;
+}
+.dropdown-menu a i {
+    margin-right: 0.5rem;
+    color: #08537c;
+    font-weight: 800;
+}
