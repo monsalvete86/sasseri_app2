@@ -19,7 +19,7 @@
         "vue": "^2.6.10"
     },
     "dependencies": {
-        "moment": "^2.24.0",
+        "moment": "^2.29.2",
         "sweetalert2": "^8.19.0",
         "vue-barcode": "^1.2.0",
         "vue-multiselect": "^2.1.6",
